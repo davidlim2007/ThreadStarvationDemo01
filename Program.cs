@@ -10,6 +10,9 @@ namespace ThreadStarvationDemo01
     // - Comments
     // - Refine code
 
+    // Code adapted from:
+    // https://stackoverflow.com/questions/8451105/how-to-simulate-c-sharp-thread-starvation
+
     class Program
     {
         static void Main(string[] args)

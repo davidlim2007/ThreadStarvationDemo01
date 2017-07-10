@@ -64,9 +64,9 @@ namespace ThreadStarvationDemo01
             finally
             {
                 ReleaseMutex();
-                Console.WriteLine("Thread {0:D} has ended with a count of {1:D}.", 
+                Console.WriteLine("Thread {0:D} has ended with a count of {1:D}. Priority : {2}",
                     Thread.CurrentThread.ManagedThreadId,
-                    count);
+                    count, Thread.CurrentThread.Priority);
             }
         }
 
